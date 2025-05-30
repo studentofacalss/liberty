@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fefffd;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0);
+    position: sticky;
+    z-index: 10;
+}
+
+nav a {
+    margin: 30px;
+    text-decoration: none;
+    color: #34a78e;
+    font-size: 14px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+    background-color: #eee;
+}
+
+.course-image {
+    flex: 1;
+    background-image: url("images/computer_class.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    height: 100%;
+}
+
+.banner-text {
+    display: flex;
+    text-align: left;
+    padding: 50px;
+    font-size: 3rem;
+    font: aqua;
+    line-height: 1.2;
+}
+
+.about,
+.what-i-learned,
+.reflection {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    gap: 40px;
+}
+
+.what-i-learned .about-image {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    order: -1;
+    margin-right: auto;
+    object-fit: fill;
+}
+
+.gallery-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.gallery-title {
+    font-size: 2rem;
+    color: #3c5944;
+    margin-bottom: 40px;
+}
+
+.gallery-cards {
+    display: flex;
+    content: center;
+    gap: 30px;
+    flex-wrap: flex;
+}
+
+.gallery-items {
+    width: 230px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-card {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-label {
+    background-color: #3c5944;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+}
+
+.gallery-card p {
+    font-size: 0.85rem;
+    padding: 15px;
+    color: #444;
+}
